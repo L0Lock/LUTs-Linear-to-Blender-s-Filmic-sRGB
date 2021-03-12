@@ -1,5 +1,7 @@
 # LUTs-Linear-to-Blender-s-Filmic-sRGB
 
+## Content
+
 Includes LUTs tranform Linear intput into Blender's Filmic sRGB with the following looks:
 
  - Very Low Contrast.3dl
@@ -18,13 +20,18 @@ The lut files were created using [DuME's OCIO LUT Converter by Rainbox Dev](http
 - shader color space or role: <blank>
 - Looks: see file names after the number
 
-Tests were done using the EXR file `Test_original_Linear.exr` looking like this in Blender:
+## Testing
+
+Tests were done using the EXR file `Test_original_Linear.exr` and comparing the LUTed conversions to Blender's own sRGB png version in `Test_original_sRGB.png`:
 
 ![test original sRGB](https://github.com/L0Lock/LUTs-Linear-to-Blender-s-Filmic-sRGB/blob/main/Test_original_sRGB.png)
 
-All test files are available here. You can also use the [lutizer.bat](https://raw.githubusercontent.com/L0Lock/LUTs-Linear-to-Blender-s-Filmic-sRGB/main/lutizer.bat) batch file to create your own luts and tests. Put the `Test_original_Linear.exr` file (you can create your own test file, but keep the same name) and the luts in the same folder as the bat file, then select and drag'n'drop the luts you want to test on the bat file. It will automatically create test PNGs for each lut.
+All test files are available here.
 
-# Download
+To do your own tests:  
+Put the `Test_original_Linear.exr` file (you can create your own test file, but keep the same name) and the luts in the same folder as the `lutizer.bat` file, then select and drag'n'drop the luts you want to test on the bat file. It will automatically create test one PNG for each lut you sent.
+
+## Download
 
  - If interested in creating your own LUTs or testing: Download [the repository as zip](https://github.com/L0Lock/LUTs-Linear-to-Blender-s-Filmic-sRGB/archive/main.zip)
- - If you just want to use the LUTs, download the [Latest Release](https://github.com/L0Lock/LUTs-Linear-to-Blender-s-Filmic-sRGB/releases/latest)
+ - If you just want to use the LUTs: Download the [Latest Release](https://github.com/L0Lock/LUTs-Linear-to-Blender-s-Filmic-sRGB/releases/latest)
