@@ -1,6 +1,16 @@
 # LUTs-Linear-to-Blender-s-Filmic-sRGB
 
-Bunch of LUT files meant to be used in external softwares to manage EXR files created from Blender with Filmic color management. Each look is in a separated file. If none was selected in Blender, use "Medium Contrast".
+Includes LUTs tranform Linear intput into Blender's Filmic sRGB with the following looks:
+
+ - Very Low Contrast.3dl
+ - Low Contrast.3dl
+ - Medium Low Contrast.3dl
+ - Medium Contrast.3dl
+ - Medium High Contrast.3dl
+ - High Contrast.3dl
+ - Very High Contrast.3dl
+
+Each look is in a separated file. If none was selected in Blender, use "Medium Contrast".
 
 The lut files were created using [DuME's OCIO LUT Converter by Rainbox Dev](https://github.com/Rainbox-dev/DuME) with the following settings:
 - input color space: Linear
